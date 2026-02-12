@@ -1,2 +1,2 @@
 # rsschool-cv
-Short-track training project 1
+https://islomboynazarov.github.io/rsschool-cv/
