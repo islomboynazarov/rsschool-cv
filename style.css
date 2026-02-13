@@ -1,11 +1,19 @@
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 body {
 margin: 0;
 font-family: Arial, sans-serif;
 background: #f4f4f4;
+}
+
+li {
+margin-bottom: 10px;
+}
+
+p {
+line-height: 1.6;
 }
 
 .header,
@@ -20,8 +28,6 @@ padding: 20px;
 .header.header {
 background-color: #1f2676;
 }
-
-
 
 .nav ul {
 display: flex;
@@ -56,6 +62,17 @@ margin-top: 20px;
 
 section {
 margin-bottom: 25px;
+transition: background 0.6s ease;
+}
+
+section:target {
+  animation: flash-highlight 1.5s ease;
+}
+
+@keyframes flash-highlight {
+  0%   { background-color: #7bc1ef49; }
+  50%  { background-color: #b4e1f749; }
+  100% { background-color: #d8ecf649; }
 }
 
 pre {
@@ -65,9 +82,7 @@ padding: 15px;
 overflow-x: auto;
 }
 
-li {
-margin-bottom: 10px;
-}
+
 
 .footer {
 text-align: center;
