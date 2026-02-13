@@ -25,6 +25,11 @@ text-decoration: none;
 color: #333;
 }
 
+.main #about p {
+text-indent: 5%;
+text-align: justify;
+}
+
 .profile {
 text-align: center;
 }
