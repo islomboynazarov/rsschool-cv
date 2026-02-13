@@ -39,6 +39,7 @@ color: white;
 .main #about p {
 text-indent: 5%;
 text-align: justify;
+line-height: 1.6;
 }
 
 .profile {
@@ -62,6 +63,10 @@ background: #222;
 color: #0f0;
 padding: 15px;
 overflow-x: auto;
+}
+
+li {
+margin-bottom: 10px;
 }
 
 .footer {
