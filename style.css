@@ -1,0 +1,97 @@
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f4f4f4;
+}
+
+li {
+margin-bottom: 10px;
+}
+
+p {
+line-height: 1.6;
+}
+
+.header,
+.main,
+.footer {
+max-width: 900px;
+margin: 0 auto;
+background: white;
+padding: 20px;
+}
+
+.header.header {
+background-color: #1f2676;
+}
+
+.nav ul {
+display: flex;
+gap: 15px;
+list-style: none;
+padding: 0;
+justify-content: center;
+}
+
+.nav a {
+text-decoration: none;
+color: white;
+}
+
+.main #about p {
+text-indent: 5%;
+text-align: justify;
+line-height: 1.6;
+}
+
+.profile {
+text-align: center;
+}
+
+.myPic {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+margin-top: 20px;
+}
+
+section {
+margin-bottom: 25px;
+transition: background 0.6s ease;
+}
+
+section:target {
+  animation: flash-highlight 1.5s ease;
+}
+
+@keyframes flash-highlight {
+  0%   { background-color: #7bc1ef49; }
+  50%  { background-color: #b4e1f749; }
+  100% { background-color: #d8ecf649; }
+}
+
+pre {
+background: #222;
+color: #0f0;
+padding: 15px;
+overflow-x: auto;
+}
+
+
+
+.footer {
+text-align: center;
+background-color: #777;
+color: white;
+}
+
+.rs-logo {
+width: 80px;
+margin-top: 10px;
+background-color: #f4f4f5;
+}
